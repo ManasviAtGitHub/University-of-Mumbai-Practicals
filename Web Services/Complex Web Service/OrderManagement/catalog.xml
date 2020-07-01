@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:9002/PaymentService?wsdl" uri="xml-resources/web-service-references/PaymentService/wsdl/localhost_9002/PaymentService.wsdl"/>
+    <system systemId="http://localhost:9002/PaymentService?xsd=1" uri="xml-resources/web-service-references/PaymentService/wsdl/localhost_9002/PaymentService.xsd_1.xsd"/>
+    <system systemId="http://localhost:9001/Billing?wsdl" uri="xml-resources/web-service-references/Billing_1/wsdl/localhost_9001/Billing.wsdl"/>
+    <system systemId="http://localhost:9001/Billing?xsd=1" uri="xml-resources/web-service-references/Billing_1/wsdl/localhost_9001/Billing.xsd_1.xsd"/>
+</catalog>

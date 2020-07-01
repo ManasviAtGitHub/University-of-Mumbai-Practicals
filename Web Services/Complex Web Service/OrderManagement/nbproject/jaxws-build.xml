@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-Billing" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Billing"/>
+        <property name="wsdl-Billing" location="xml-resources/web-service-references/Billing/wsdl/localhost_9001/Billing.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Billing" destdir="${build.generated.dir}/jax-wsCache/Billing" wsdl="${wsdl-Billing}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:9001/Billing?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Billing}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Billing"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Billing">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Billing" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Billing"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/billing"/>
+    </target>
+    <target name="wsimport-client-PaymentService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/PaymentService"/>
+        <property name="wsdl-PaymentService" location="xml-resources/web-service-references/PaymentService/wsdl/localhost_9002/PaymentService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/PaymentService" destdir="${build.generated.dir}/jax-wsCache/PaymentService" wsdl="${wsdl-PaymentService}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:9002/PaymentService?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-PaymentService}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/PaymentService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/PaymentService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-PaymentService" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/PaymentService"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/paymentservice"/>
+    </target>
+    <target name="wsimport-client-Billing_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/Billing_1"/>
+        <property name="wsdl-Billing_1" location="xml-resources/web-service-references/Billing_1/wsdl/localhost_9001/Billing.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/Billing_1" destdir="${build.generated.dir}/jax-wsCache/Billing_1" wsdl="${wsdl-Billing_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:9001/Billing?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-Billing_1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/Billing_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/Billing_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-Billing_1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/Billing_1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/billing"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-Billing, wsimport-client-PaymentService, wsimport-client-Billing_1"/>
+</project>
