@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><xs:schema xmlns:tns="http://applicationserver/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://applicationserver/">
+
+<xs:element name="add" type="tns:add"></xs:element>
+
+<xs:element name="addResponse" type="tns:addResponse"></xs:element>
+
+<xs:element name="divide" type="tns:divide"></xs:element>
+
+<xs:element name="divideResponse" type="tns:divideResponse"></xs:element>
+
+<xs:element name="modulus" type="tns:modulus"></xs:element>
+
+<xs:element name="modulusResponse" type="tns:modulusResponse"></xs:element>
+
+<xs:element name="multiply" type="tns:multiply"></xs:element>
+
+<xs:element name="multiplyResponse" type="tns:multiplyResponse"></xs:element>
+
+<xs:element name="substract" type="tns:substract"></xs:element>
+
+<xs:element name="substractResponse" type="tns:substractResponse"></xs:element>
+
+<xs:complexType name="substract">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+<xs:element name="arg1" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="substractResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="modulus">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+<xs:element name="arg1" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="modulusResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiply">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+<xs:element name="arg1" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplyResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="divide">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+<xs:element name="arg1" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="divideResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="add">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+<xs:element name="arg1" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
