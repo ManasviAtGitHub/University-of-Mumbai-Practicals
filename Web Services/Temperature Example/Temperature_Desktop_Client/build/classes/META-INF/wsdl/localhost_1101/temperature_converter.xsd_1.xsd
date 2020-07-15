@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><xs:schema xmlns:tns="http://temperature_service/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://temperature_service/">
+
+<xs:element name="celsius_to_farenheit" type="tns:celsius_to_farenheit"></xs:element>
+
+<xs:element name="celsius_to_farenheitResponse" type="tns:celsius_to_farenheitResponse"></xs:element>
+
+<xs:element name="farenheit_to_celsius" type="tns:farenheit_to_celsius"></xs:element>
+
+<xs:element name="farenheit_to_celsiusResponse" type="tns:farenheit_to_celsiusResponse"></xs:element>
+
+<xs:complexType name="celsius_to_farenheit">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsius_to_farenheitResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="farenheit_to_celsius">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="farenheit_to_celsiusResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

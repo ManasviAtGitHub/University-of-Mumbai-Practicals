@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:1101/temperature_converter?wsdl" uri="src/conf/xml-resources/web-service-references/temperature_converter/wsdl/localhost_1101/temperature_converter.wsdl"/>
+    <system systemId="http://localhost:1101/temperature_converter?xsd=1" uri="src/conf/xml-resources/web-service-references/temperature_converter/wsdl/localhost_1101/temperature_converter.xsd_1.xsd"/>
+</catalog>
