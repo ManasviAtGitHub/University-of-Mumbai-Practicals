@@ -1,0 +1,7 @@
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\bin\Debug\Wcf_Library.dll.config
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\bin\Debug\Wcf_Library.dll
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\bin\Debug\Wcf_Library.pdb
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\obj\Debug\Wcf_Library.csprojAssemblyReference.cache
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\obj\Debug\Wcf_Library.csproj.CoreCompileInputs.cache
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\obj\Debug\Wcf_Library.dll
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf_Library\obj\Debug\Wcf_Library.pdb

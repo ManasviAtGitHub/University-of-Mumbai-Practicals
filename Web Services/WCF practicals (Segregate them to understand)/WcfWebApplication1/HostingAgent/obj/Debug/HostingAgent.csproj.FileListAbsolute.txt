@@ -1,0 +1,11 @@
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\bin\Debug\HostingAgent.exe.config
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\bin\Debug\HostingAgent.exe
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\bin\Debug\HostingAgent.pdb
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\bin\Debug\Wcf_Library.dll
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\bin\Debug\Wcf_Library.pdb
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\bin\Debug\Wcf_Library.dll.config
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\obj\Debug\HostingAgent.csprojAssemblyReference.cache
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\obj\Debug\HostingAgent.csproj.CoreCompileInputs.cache
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\obj\Debug\HostingAgent.csproj.CopyComplete
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\obj\Debug\HostingAgent.exe
+C:\Users\Manasvi\source\repos\WcfWebApplication1\HostingAgent\obj\Debug\HostingAgent.pdb

@@ -1,0 +1,7 @@
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\bin\Debug\Wcf Scratch.dll.config
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\bin\Debug\Wcf Scratch.dll
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\bin\Debug\Wcf Scratch.pdb
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\obj\Debug\Wcf Scratch.csprojAssemblyReference.cache
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\obj\Debug\Wcf Scratch.csproj.CoreCompileInputs.cache
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\obj\Debug\Wcf Scratch.dll
+C:\Users\Manasvi\source\repos\WcfWebApplication1\Wcf Scratch\obj\Debug\Wcf Scratch.pdb

@@ -1,0 +1,10 @@
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.Form1.resources
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.CoreCompileInputs.cache
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\Manasvi\source\repos\WebClient\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
